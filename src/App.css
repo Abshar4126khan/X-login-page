@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body {
+  background-color: #242d34;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 95%;
+    margin: 90px auto;
+    border: none;
+    padding: 10px 10px;
+    margin-left: 12px;
+  }
+
+  .main3,
+  .main1,
+  .img {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .img {
+    text-align: center;
+  }
+}
